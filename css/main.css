@@ -44,7 +44,7 @@ body {
   font-size: 22px;
 }
 .main-content .text-square .offer {
-  font-size: 35px;
+  font-size: 2.2em;
 }
 .main-content .text-square .appointment {
   font-size: 20px;
@@ -98,17 +98,20 @@ body {
   margin-top: 82px;
 }
 .services .image-container {
+  text-align: center;
   position: relative;
 }
 .services .image-container .image-title {
-  position: absolute;
-  bottom: 67px;
-  left: 161px;
+  font-size: 30px;
+  padding-top: 59%;
+}
+.services .image-container .coronos-title {
+  line-height: 1;
 }
 .services .image-container .image-text {
-  position: absolute;
-  bottom: 43px;
-  left: 160px;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .book {
@@ -120,7 +123,7 @@ body {
   margin-left: 10%;
 }
 .book .book-online {
-  width: 45%;
+  width: 44.92%;
   height: 511px;
   background-color: #7CA0C0;
   color: white;
@@ -134,7 +137,7 @@ body {
   width: 71%;
 }
 .book .book-online .book-register {
-  width: 278px;
+  width: 290px;
   text-transform: uppercase;
   color: #7CA0C0;
   text-align: center;
@@ -142,12 +145,20 @@ body {
   font-size: 20px;
   padding: 10px 5px;
   margin-top: 30px;
+  overflow: hidden;
 }
 
 .logo {
   margin-top: 154px;
 }
 
+.footer {
+  margin-top: 151px;
+}
+.footer-logo {
+  width: 139px;
+  height: 139px;
+}
 .footer-text {
   width: 17%;
   font-size: 22px;
@@ -158,9 +169,41 @@ body {
   margin-left: 5%;
 }
 
+.apicetomies {
+  background: url("../img/1.png") no-repeat center;
+  height: 350px;
+}
+
+.resins {
+  background: url("../img/2.png") no-repeat center;
+  height: 350px;
+}
+
+.cleaning {
+  background: url("../img/3.png") no-repeat center;
+  height: 350px;
+}
+
+.coronas {
+  background: url("../img/4.png") no-repeat center;
+  height: 350px;
+}
+
+.active-link {
+  border-bottom: 2px solid #007bff;
+  padding: 10px 0;
+}
+
 @media screen and (min-width: 1920px) {
   .main-content .main-image {
     background: url(../img/Oakton-Banner.png) no-repeat right;
+  }
+}
+@media only screen and (max-width: 1338px) {
+  .main-content .text-square {
+    width: 50%;
+    margin-top: 16%;
+    font-size: 1em;
   }
 }
 

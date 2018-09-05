@@ -52,7 +52,7 @@ body {
       }
 
       .offer {
-          font-size: 35px;
+          font-size: 2.2em;
 
       }
       
@@ -128,19 +128,24 @@ body {
         margin-top: 82px;
     }
 
-    .image-container {
-        position: relative;
 
+    .image-container {
+        text-align: center;
+        position: relative;
         .image-title {
-            position: absolute;
-            bottom: 67px;
-            left: 161px;
+         //   position: absolute;
+            font-size: 30px;
+            padding-top: 59%;
+        }
+        .coronos-title {
+            line-height: 1;
         }
 
         .image-text {
-            position: absolute;
-            bottom: 43px;
-            left: 160px;
+         //   position: absolute;
+            font-size: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
         }
     }
 
@@ -159,13 +164,12 @@ body {
     }
 
     .book-online {
-        width: 45%;
+        width: 44.92%;
         height: 511px;
         background-color: #7CA0C0;
         color: white;
 
         .book-text {
-           // margin: 0 auto;
            margin-left: 10%;
            margin-top: 10%;
         }
@@ -176,7 +180,7 @@ body {
         }
 
         .book-register {
-            width: 278px;
+            width: 290px;
             text-transform: uppercase;
             color: #7CA0C0;
             text-align: center;
@@ -184,6 +188,7 @@ body {
             font-size: 20px;
             padding: 10px 5px;
             margin-top: 30px;
+            overflow: hidden;
            
         }
     }
@@ -191,10 +196,15 @@ body {
 
 .logo {
     margin-top: 154px;
-   // margin: 0 auto;
 }
 
 .footer {
+    margin-top: 151px;
+
+    &-logo {
+        width: 139px;
+        height: 139px;;
+    }
 
     &-text {
         width: 17%;
@@ -208,6 +218,36 @@ body {
     }
 }
 
+
+
+
+.apicetomies{
+    background: url("../img/1.png") no-repeat center;
+    height: 350px;
+}
+
+.resins {
+    background: url("../img/2.png") no-repeat center;
+    height: 350px;
+}
+
+
+
+.cleaning {
+    background: url("../img/3.png") no-repeat center;
+    height: 350px;
+}
+
+.coronas {
+    background: url("../img/4.png") no-repeat center;
+    height: 350px;
+}
+
+.active-link {
+    border-bottom: 2px solid #007bff;
+    padding: 10px 0;
+}
+
 @media screen and (min-width:1920px){
     .main-content {
 
@@ -216,6 +256,21 @@ body {
     
         }
 
-    }
+    } 
 }
+
+
+@media only screen and (max-width:1338px){
+
+    .main-content {
+        
+        .text-square {
+            width: 50%;
+            margin-top: 16%;
+            font-size: 1em;
+        }
+    }
+  
+}
+
 
