@@ -12,6 +12,7 @@ body {
 .page-logo {
   width: 164px;
   height: 164px;
+  cursor: pointer;
 }
 
 .nav-link {
@@ -65,6 +66,9 @@ body {
 }
 .about .about-text .text {
   font-size: 22px;
+}
+.about .about-text .about-img {
+  height: 729px;
 }
 .about .reception {
   margin-top: 144px;
@@ -204,6 +208,12 @@ body {
     width: 50%;
     margin-top: 16%;
     font-size: 1em;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .about .about-img {
+    height: 571px;
+    margin-top: 18%;
   }
 }
 
