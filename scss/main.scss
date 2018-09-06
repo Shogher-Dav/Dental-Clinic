@@ -1,3 +1,7 @@
+@import "bio";
+@import "office";
+@import "media";
+
 body {
     margin: 0;
     padding: 0;
@@ -9,8 +13,8 @@ body {
 }
 
 .page-logo {
-    width: 164px;
-    height: 164px;
+    width: 190px;
+    height: 190px;
     cursor: pointer;
 }
 .nav {
@@ -53,7 +57,7 @@ body {
       }
 
       .offer {
-          font-size: 2.2em;
+          font-size: 2em;
 
       }
       
@@ -87,30 +91,36 @@ body {
             height: 729px;
         }
     }
+
     .reception {
-        margin-top: 144px;
-
-        .check {
-            width: 24px;
-            height: 24px;
-            margin-right: 25px;
-        }
-
-        .check-second {
-            margin-left: 160px;
-      
-        }
-
-        .reception-title {
-            font-size: 65px;
-        }
 
         .reception-image {
             margin-left: 130px;
         }
+    }
+}
+
+.reception {
+
+    .check {
+        width: 20px;
+        height: 20px;
+        margin-right: 25px;
+    }
+
+    .check-second {
+        margin-left: 160px;
 
     }
-    
+
+    .reception-title {
+        font-size: 65px;
+        margin-top: 10%;
+    }
+
+    .check-text {
+        font-size: 20px;
+    }
 
 }
 
@@ -250,40 +260,37 @@ body {
     padding: 10px 0;
 }
 
-@media screen and (min-width:1920px){
-    .main-content {
-
-        .main-image {
-            background: url(../img/Oakton-Banner.png) no-repeat right;
-    
-        }
-
-    } 
-}
 
 
-@media only screen and (max-width:1338px){
 
-    .main-content {
-        
-        .text-square {
-            width: 50%;
-            margin-top: 16%;
-            font-size: 1em;
-        }
-    }
-}
-
-@media only  screen and (max-width:1400px) {
-
-    .about {
-
-        .about-img {
-            height: 571px;
-            margin-top: 18%;
-
-        }
-    }
-}
-
-
+//
+//<!-- .appointment {
+//         font-size: 12px;
+//         width: 69%;
+//         background-color: #fff;
+//         color: #7CA0C0;
+//         text-align: center;
+//         padding: 10px 0;
+//     } -->
+//
+//.main-content .text-square {
+//    width: 53%;
+//    height: 25%;
+//    background-color: #7CA0C0;
+//    color: white;
+//    position: absolute;
+//    margin-top: 10%;
+//    text-transform: uppercase;
+//
+//
+//    margin: 0 auto;
+//    width: 71%;
+//    margin-top: 15px;
+//
+//    .main-content .text-square .dr-name {
+//        font-size: 22px;
+//    }
+//
+//    .main-content .text-square .offer {
+//        font-size: 1.2em;
+//    }
