@@ -2,19 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Document</title>
 </head>
 <body>
 <header>
     <div class="navbar navbar-expand-lg navbar-static-top navbar-light">
         <div class="container">
             <a class="navbar-left" href="../index.html"> <img class="page-logo" src="../img/Logo.png"
-                alt="Fernanda Garsia Logo">
-             </a>
+                                                           alt="Fernanda Garsia Logo">
+            </a>
+
             <button class="navbar-toggler" data-toggle="collapse" data-target="#mymenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,11 +25,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
                     </li>
-                     <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="office.html">Office</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Dental Health</a>
+                        <a class="nav-link" href="">Dental Health</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Appointments</a>
@@ -46,56 +45,66 @@
         </div>
     </div>
 </header>
-<section class="main-content">
-    <div class="office-image">
-        <div class="grey-square">
-            <div class="texts">
-                <p class="offer">Our office</p>
-                <p class="offer">Get in touch with us</p>
-            </div>
-        </div>
-    </div>
-</section>
 <section class="content">
-    <div class="row reception" >
-        <div class="col-lg-6">
-            <img class="reception-img office-reception" src="../img/dental-chair.png" alt="reseption">
-        </div>
-        <div class="col-lg-6">
-            <p class="reception-title">I want to offer you a
-                good quality of
-                services and attention
-            </p>
-            <div class="d-flex">
+    <div class="contact-form">
+        <div class="row ">
+
+            <div class="col-lg-6">
+                <h1> Get in touch with us</h1>
                 <div>
-                    <div class="d-flex">
-                        <img class="check" src="../img/check.png" alt="">
-                        <p class="check-text">General odontology</p>
+                    <p class="contact-title">Location</p>
+                    <p class="contact-text">DDS Avenida B 150, </p>
+                    <p class="contact-text">21970 Los Algodones, B.C.</p>
+                </div>
+                <div>
+                    <p class="contact-title">Mail</p>
+                    <p class="contact-text">companyname@domain.com</p>
+
+                </div>
+                <div>
+                    <p class="contact-title">Phone</p>
+                    <p class="contact-text">+1234567891011</p>
+                </div>
+
+
+            </div>
+            <div class="col-lg-6">
+                <h1>Contact form</h1>
+                <div class="d-flex justify-content-between patient">
+                    <div class="patient-option selected-patient">
+                        <p>NEW PATIENT</p>
                     </div>
-                    <div class="d-flex">
-                        <img class="check" src="../img/check.png" alt="">
-                        <p class="check-text">Children and adults</p>
+                    <div class="patient-option">
+                        <p>RECURRING PATIENT</p>
                     </div>
                 </div>
-                <div class="check-second">
-                    <div class="d-flex">
-                        <img class="check" src="../img/check.png" alt="">
-                        <p class="check-text">Exceptional service</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="name" class="form-control form-control-lg"
+                               aria-describedby="emailHelp" placeholder="Name">
+
                     </div>
-                    <div class="d-flex">
-                        <img class="check" src="../img/check.png" alt="">
-                        <p class="check-text">Friendly and professional team</p>
+                    <div class="form-group">
+                        <input type="email" class="form-control form-control-lg "
+                               placeholder="Email">
                     </div>
-                </div>
+                    <div class="form-group">
+                        <input type="phone" class="form-control form-control-lg "
+                               placeholder="Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="user-message" id="user-message" class="form-control  form-control-lg" cols="30"
+                                  rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <div>
+                    </div>
+                    <button  type="submit" class="btn float-left send-btn">SEND</button>
+                </form>
             </div>
         </div>
     </div>
 </section>
-<section class="virtual-tour">
-    <iframe src="http://www.sainmedical.com/vtours/los-algodones/">
-        Ваш браузер не поддерживает плавающие фреймы!
-    </iframe>
-</section>
+
 <footer class="footer">
     <hr>
     <div class="row justify-content-around">
@@ -122,6 +131,7 @@
     <hr>
     <p class="rights">Copyright 2018 FernandaGarsia| All rights reserved</p>
 </footer>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

@@ -1,6 +1,6 @@
 @import "bio";
 @import "office";
-@import "media";
+@import "faq";
 
 body {
     margin: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 .page-logo {
-    width: 190px;
+    width: 233px;
     height: 190px;
     cursor: pointer;
 }
@@ -57,18 +57,18 @@ body {
       }
 
       .offer {
-          font-size: 2em;
+          font-size: 1.5em;
 
       }
       
-      .appointment {
-          font-size: 20px;
-          width: 290px;
-          background-color: #fff;
-          color: #7CA0C0;
-          text-align:  center;
-          padding: 15px 0;
-      }
+      //.appointment {
+      //    font-size: 20px;
+      //    width: 290px;
+      //    background-color: #fff;
+      //    color: #7CA0C0;
+      //    text-align:  center;
+      //    padding: 15px 0;
+      //}
     }
 }
 
@@ -76,28 +76,29 @@ body {
 
     .about-text {
         width: 621px;
-        margin-left: 130px;
+     //   margin-left: 130px;
         margin-top: 80px;
 
       
         .about-title {
-            font-size: 65px;
+            font-size: 50px;
         }
 
         .text {
-            font-size: 22px;
+            font-size: 21px;
         }
         .about-img {
-            height: 729px;
+            width: 100%;
+            height: 100%;
         }
     }
 
-    .reception {
-
-        .reception-image {
-            margin-left: 130px;
-        }
-    }
+    //.reception {
+    //
+    //    .reception-image {
+    //        margin-left: 130px;
+    //    }
+    //}
 }
 
 .reception {
@@ -114,12 +115,12 @@ body {
     }
 
     .reception-title {
-        font-size: 65px;
+        font-size: 50px;
         margin-top: 10%;
     }
 
     .check-text {
-        font-size: 20px;
+        font-size: 19px;
     }
 
 }
@@ -186,41 +187,59 @@ body {
            margin-top: 10%;
         }
 
-        .book-appointment {
+        .book-register{
            font-size: 54px;
            width: 71%;
         }
 
-        .book-register {
-            width: 290px;
-            text-transform: uppercase;
-            color: #7CA0C0;
-            text-align: center;
-            background-color: #fff;
-            font-size: 20px;
-            padding: 10px 5px;
-            margin-top: 30px;
-            overflow: hidden;
-           
-        }
+        //.book-register {
+        //    width: 290px;
+        //    text-transform: uppercase;
+        //    color: #7CA0C0;
+        //    text-align: center;
+        //    background-color: #fff;
+        //    font-size: 20px;
+        //    padding: 10px 5px;
+        //    margin-top: 30px;
+        //    overflow: hidden;
+        //
+        //}
     }
 }
 
 .logo {
     margin-top: 154px;
+
+    logo-img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .footer {
-    margin-top: 151px;
-
+   // margin-top: 151px;
+    .logo-block {
+        text-align: center;
+    }
     &-logo {
         width: 139px;
-        height: 139px;;
+        height: 139px;
+
     }
+
 
     &-text {
         width: 17%;
         font-size: 22px;
+    }
+    &-largetext {
+        font-size: 22px;
+
+    }
+    &-smalltext {
+        font-size: 20px;
+        font-weight: 600;
+
     }
 
     .rights {
@@ -260,8 +279,7 @@ body {
     padding: 10px 0;
 }
 
-
-
+@import "media";
 
 //
 //<!-- .appointment {
@@ -294,3 +312,12 @@ body {
 //    .main-content .text-square .offer {
 //        font-size: 1.2em;
 //    }
+
+.appointment {
+    font-size: 20px;
+    width: 290px;
+    background-color: #fff;
+    color: #7CA0C0;
+    text-align:  center;
+    padding: 15px 0;
+}

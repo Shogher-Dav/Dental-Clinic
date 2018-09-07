@@ -37,7 +37,7 @@
   text-transform: uppercase;
 }
 .grey-square .offer {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .grey-square .texts {
   margin-left: 10px;
@@ -70,141 +70,82 @@
   font-size: 19px;
 }
 
+.selected-patient {
+  background-color: #7CA0C0;
+  color: #fff;
+}
+
 .patient-option {
-  width: 18em;
+  width: 20em;
   text-align: center;
   font-size: 15px;
   cursor: pointer;
+  border: 1px solid lightgray;
+  padding: 4px 0;
+  border-radius: 10px;
 }
 .patient-option p {
   margin-top: 20px;
 }
 
-@media screen and (min-width: 1920px) {
-  .office-image {
-    background: url(../img/Receptionroominclinic.png) no-repeat right;
-  }
+.header-bg {
+  background: url(../img/faq.png) no-repeat center;
+  background-size: contain;
+  width: 100%;
+  height: 703px;
 }
-@media screen and (min-width: 1920px) {
-  .main-content .main-image {
-    background: url(../img/Oakton-Banner.png) no-repeat right;
-  }
-}
-@media screen and (max-width: 1800px) {
-  .office-image {
-    margin-top: -8%;
-  }
-}
-@media screen and (max-width: 1500px) {
-  .office-image {
-    margin-top: -16%;
-  }
 
-  .grey-square {
-    margin-top: 25%;
-  }
-
-  .reception {
-    margin-top: -10%;
-  }
-  .reception .office-reception {
-    width: 500px;
-    height: 600px;
-  }
-  .reception .reception-title {
-    font-size: 10px;
-  }
+.virtual-tour {
+  position: relative;
+  padding-bottom: 40%;
+  /*16:9*/
+  height: 0;
+  overflow: hidden;
 }
-@media all and (max-width: 1400px) {
-  .main-content .main-image {
-    margin-top: -9%;
-  }
-
-  .about .about-img {
-    height: 571px;
-    margin-top: 18%;
-  }
+.virtual-tour iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-@media only screen and (max-width: 1338px) {
-  .main-content .text-square {
-    width: 50%;
-    margin-top: 16%;
-    font-size: 1em;
-  }
+
+.contact-form {
+  margin-top: 20px;
 }
-@media all and (max-width: 1024px) {
-  .office-image {
-    margin-top: -25%;
-  }
 
-  .grey-square .offer {
-    font-size: 20px;
-  }
-
-  .main-content .appointment {
-    font-size: 12px;
-    width: 69%;
-    padding: 10px 0;
-  }
+.faq-greysquare {
+  top: 47%;
+  width: 31%;
+  background-color: #7CA0C0;
+  color: white;
+  position: absolute;
+  text-transform: uppercase;
+  padding-left: 10px;
 }
-@media all and (max-width: 768px) {
-  .office-image {
-    margin-top: -38%;
-  }
 
-  .grey-square {
-    margin-top: 37%;
-  }
+.question-section {
+  margin-top: -11%;
 }
-@media all and (max-width: 800px) {
-  .office-image {
-    margin-top: -35%;
-  }
 
-  .grey-square {
-    margin-top: 35%;
-  }
+.question-block {
+  background-color: lightgray;
+  padding: 8px 0;
+  text-align: center;
+  margin: 10px;
 }
-@media all and (max-width: 600px) {
-  .office-image {
-    margin-top: -53%;
-  }
-
-  .grey-square {
-    margin-top: 51%;
-  }
-  .grey-square .offer {
-    font-size: 13px;
-  }
+.search-form {
+  position: relative;
+  margin-bottom: 15px;
 }
-@media all and (max-width: 411px) {
-  .office-image {
-    margin-top: -78%;
-  }
-
-  .grey-square {
-    margin-top: 75%;
-    width: 51%;
-  }
-
-  page-logo {
-    width: 150px;
-    height: 150px;
-  }
+.search-form .search-icon {
+  position: absolute;
+  right: 13px;
+  top: 11px;
+  width: 25px;
+  height: 25px;
 }
-@media all and (max-width: 330px) {
-  .office-image {
-    margin-top: -106%;
-  }
 
-  .grey-square {
-    margin-top: 100%;
-    width: 54%;
-  }
-  .grey-square .offer {
-    font-size: 11px;
-  }
-}
 body {
   margin: 0;
   padding: 0;
@@ -217,7 +158,7 @@ body {
 }
 
 .page-logo {
-  width: 190px;
+  width: 233px;
   height: 190px;
   cursor: pointer;
 }
@@ -252,33 +193,22 @@ body {
   font-size: 22px;
 }
 .main-content .text-square .offer {
-  font-size: 2em;
-}
-.main-content .text-square .appointment {
-  font-size: 20px;
-  width: 290px;
-  background-color: #fff;
-  color: #7CA0C0;
-  text-align: center;
-  padding: 15px 0;
+  font-size: 1.5em;
 }
 
 .about .about-text {
   width: 621px;
-  margin-left: 130px;
   margin-top: 80px;
 }
 .about .about-text .about-title {
-  font-size: 65px;
+  font-size: 50px;
 }
 .about .about-text .text {
-  font-size: 22px;
+  font-size: 21px;
 }
 .about .about-text .about-img {
-  height: 729px;
-}
-.about .reception .reception-image {
-  margin-left: 130px;
+  width: 100%;
+  height: 100%;
 }
 
 .reception .check {
@@ -290,11 +220,11 @@ body {
   margin-left: 160px;
 }
 .reception .reception-title {
-  font-size: 65px;
+  font-size: 50px;
   margin-top: 10%;
 }
 .reception .check-text {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .services img {
@@ -345,28 +275,21 @@ body {
   margin-left: 10%;
   margin-top: 10%;
 }
-.book .book-online .book-appointment {
+.book .book-online .book-register {
   font-size: 54px;
   width: 71%;
-}
-.book .book-online .book-register {
-  width: 290px;
-  text-transform: uppercase;
-  color: #7CA0C0;
-  text-align: center;
-  background-color: #fff;
-  font-size: 20px;
-  padding: 10px 5px;
-  margin-top: 30px;
-  overflow: hidden;
 }
 
 .logo {
   margin-top: 154px;
 }
+.logo logo-img {
+  width: 100%;
+  height: 100%;
+}
 
-.footer {
-  margin-top: 151px;
+.footer .logo-block {
+  text-align: center;
 }
 .footer-logo {
   width: 139px;
@@ -375,6 +298,13 @@ body {
 .footer-text {
   width: 17%;
   font-size: 22px;
+}
+.footer-largetext {
+  font-size: 22px;
+}
+.footer-smalltext {
+  font-size: 20px;
+  font-weight: 600;
 }
 .footer .rights {
   font-size: 15px;
@@ -405,6 +335,207 @@ body {
 .active-link {
   border-bottom: 2px solid #007bff;
   padding: 10px 0;
+}
+
+@media screen and (min-width: 1920px) {
+  .office-image {
+    background: url(../img/Receptionroominclinic.png) no-repeat right;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .main-content .main-image {
+    background: url(../img/Oakton-Banner.png) no-repeat right;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .office-image {
+    margin-top: -8%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .office-image {
+    margin-top: -16%;
+  }
+
+  .grey-square {
+    margin-top: 25%;
+  }
+
+  .reception {
+    margin-top: -10%;
+  }
+  .reception .office-reception {
+    width: 500px;
+    height: 600px;
+  }
+  .reception .reception-img {
+    width: 95%;
+  }
+
+  .about .about-img {
+    width: 85%;
+    height: 65%;
+  }
+}
+@media all and (max-width: 1400px) {
+  .main-content .main-image {
+    margin-top: -9%;
+  }
+
+  .about .about-img {
+    height: 571px;
+    margin-top: 18%;
+  }
+}
+@media only screen and (max-width: 1338px) {
+  .main-content .text-square {
+    width: 50%;
+    margin-top: 16%;
+    font-size: 1em;
+  }
+}
+@media all and (max-width: 1024px) {
+  .office-image {
+    margin-top: -25%;
+  }
+
+  .grey-square .offer {
+    font-size: 20px;
+  }
+
+  .main-content .appointment {
+    font-size: 12px;
+    width: 69%;
+    padding: 10px 0;
+  }
+
+  .main-image .text-square {
+    width: 55%;
+    margin-top: 27%;
+    font-size: 0.7em;
+    height: 212px;
+  }
+  .main-image .text-square .appointment {
+    font-size: 1.2em;
+    width: 186px;
+    padding: 9px 0;
+  }
+}
+@media all and (max-width: 800px) {
+  .office-image {
+    margin-top: -35%;
+  }
+
+  .grey-square {
+    margin-top: 35%;
+  }
+
+  .book .book-online .book-register {
+    font-size: 40px;
+  }
+
+  .about {
+    margin-top: -46%;
+  }
+  .about .about-title {
+    font-size: 35px;
+  }
+  .about .about-text {
+    font-size: 18px;
+  }
+}
+@media all and (max-width: 768px) {
+  .office-image {
+    margin-top: -38%;
+  }
+
+  .grey-square {
+    margin-top: 37%;
+  }
+}
+@media all and (max-width: 600px) {
+  .appointment {
+    font-size: 1.2em;
+    width: 186px;
+    padding: 9px 0;
+  }
+
+  .main-content .main-image {
+    margin-top: -42%;
+  }
+  .main-content .main-image .text-square {
+    width: 63%;
+    margin-top: 47%;
+    font-size: 0.6em;
+    height: 161px;
+  }
+  .main-content .main-image .text-square .texts {
+    margin-top: 7px;
+  }
+
+  .about {
+    margin-top: -46%;
+  }
+  .about .about-title {
+    font-size: 35px;
+  }
+  .about .about-text {
+    font-size: 18px;
+  }
+  .about .about-img {
+    width: 500px;
+    height: 500px;
+  }
+  .about about-img-top {
+    margin-top: -39%;
+  }
+
+  .office-image {
+    margin-top: -53%;
+  }
+
+  .grey-square {
+    margin-top: 51%;
+  }
+  .grey-square .offer {
+    font-size: 13px;
+  }
+}
+@media all and (max-width: 411px) {
+  .office-image {
+    margin-top: -78%;
+  }
+
+  .grey-square {
+    margin-top: 75%;
+    width: 51%;
+  }
+
+  page-logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media all and (max-width: 330px) {
+  .office-image {
+    margin-top: -106%;
+  }
+
+  .grey-square {
+    margin-top: 100%;
+    width: 54%;
+  }
+  .grey-square .offer {
+    font-size: 11px;
+  }
+}
+.appointment {
+  font-size: 20px;
+  width: 290px;
+  background-color: #fff;
+  color: #7CA0C0;
+  text-align: center;
+  padding: 15px 0;
 }
 
 /*# sourceMappingURL=main.css.map */
