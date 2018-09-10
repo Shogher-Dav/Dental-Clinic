@@ -43,7 +43,7 @@
   margin-left: 10px;
 }
 
-.reception .office-reception {
+.reception .office-img {
   width: 600px;
   height: 700px;
 }
@@ -157,6 +157,20 @@ body {
   width: 80%;
 }
 
+.bg-light {
+  min-height: 95vh;
+  background: url("../img/implant-dentistry.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-pink {
+  min-height: 100vh;
+  background: url("../img/bg-light.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .page-logo {
   width: 233px;
   height: 190px;
@@ -197,8 +211,8 @@ body {
 }
 
 .about .about-text {
-  width: 621px;
-  margin-top: 80px;
+  width: 64%;
+  float: right;
 }
 .about .about-text .about-title {
   font-size: 50px;
@@ -215,9 +229,6 @@ body {
   width: 20px;
   height: 20px;
   margin-right: 25px;
-}
-.reception .check-second {
-  margin-left: 160px;
 }
 .reception .reception-title {
   font-size: 50px;
@@ -283,7 +294,7 @@ body {
 .logo {
   margin-top: 154px;
 }
-.logo logo-img {
+.logo .logo-img {
   width: 100%;
   height: 100%;
 }
@@ -337,19 +348,44 @@ body {
   padding: 10px 0;
 }
 
+.appointment {
+  font-size: 20px;
+  width: 290px;
+  background-color: #fff;
+  color: #7CA0C0;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
 @media screen and (min-width: 1920px) {
   .office-image {
     background: url(../img/Receptionroominclinic.png) no-repeat right;
   }
-}
-@media screen and (min-width: 1920px) {
+
   .main-content .main-image {
     background: url(../img/Oakton-Banner.png) no-repeat right;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bg-light {
+    background: url(../img/implant-dentistry.jpg) no-repeat center center;
   }
 }
 @media screen and (max-width: 1800px) {
   .office-image {
     margin-top: -8%;
+  }
+
+  .main-content .main-image {
+    margin-top: -2%;
+  }
+
+  .about-home {
+    margin-top: -2%;
   }
 }
 @media screen and (max-width: 1500px) {
@@ -361,9 +397,10 @@ body {
     margin-top: 25%;
   }
 
-  .reception {
-    margin-top: -10%;
+  .reception-office {
+    margin-top: -14%;
   }
+
   .reception .office-reception {
     width: 500px;
     height: 600px;
@@ -372,14 +409,29 @@ body {
     width: 95%;
   }
 
+  .about-home {
+    margin-top: -6%;
+  }
+
   .about .about-img {
-    width: 85%;
-    height: 65%;
+    width: 88%;
+    height: 86%;
+  }
+  .about .about-text {
+    width: 100%;
+  }
+
+  .main-content .main-image {
+    margin-top: -6%;
   }
 }
 @media all and (max-width: 1400px) {
   .main-content .main-image {
     margin-top: -9%;
+  }
+
+  .about-home {
+    margin-top: -8%;
   }
 
   .about .about-img {
@@ -403,6 +455,9 @@ body {
     font-size: 20px;
   }
 
+  .main-content {
+    margin-top: -20%;
+  }
   .main-content .appointment {
     font-size: 12px;
     width: 69%;
@@ -420,6 +475,34 @@ body {
     width: 186px;
     padding: 9px 0;
   }
+
+  .about-home {
+    margin-top: -20%;
+  }
+
+  .about .about-img {
+    height: 67%;
+    width: 88%;
+  }
+  .about .about-text {
+    width: 90%;
+  }
+
+  .reception-office {
+    margin-top: -26%;
+  }
+
+  .reception .reception-title {
+    font-size: 45px;
+  }
+  .reception .check-text {
+    font-size: 17px;
+  }
+
+  .services .image-container .image-title {
+    font-size: 27px;
+    padding-top: 85%;
+  }
 }
 @media all and (max-width: 800px) {
   .office-image {
@@ -434,14 +517,31 @@ body {
     font-size: 40px;
   }
 
-  .about {
-    margin-top: -46%;
+  .about-home {
+    margin-top: -26%;
   }
+
   .about .about-title {
     font-size: 35px;
   }
   .about .about-text {
     font-size: 18px;
+  }
+
+  .services .image-container .image-title {
+    font-size: 21px;
+    padding-top: 107%;
+  }
+  .services .image-container .image-text {
+    font-size: 13px;
+  }
+
+  .reception-office {
+    margin-top: -37%;
+  }
+
+  .header-bg {
+    height: 580px;
   }
 }
 @media all and (max-width: 768px) {
@@ -451,6 +551,34 @@ body {
 
   .grey-square {
     margin-top: 37%;
+  }
+
+  .about-home {
+    margin-top: -28%;
+  }
+
+  .main-content .main-image {
+    margin-top: -28%;
+  }
+
+  .book .book-online {
+    width: 43%;
+  }
+  .book .book-online .book-register {
+    font-size: 35px;
+  }
+
+  .appointment {
+    width: 208px;
+    padding: 10px 0;
+  }
+
+  .reception .reception-title {
+    font-size: 36px;
+  }
+  .reception .reception-img {
+    width: 100%;
+    height: 89%;
   }
 }
 @media all and (max-width: 600px) {
@@ -473,9 +601,10 @@ body {
     margin-top: 7px;
   }
 
-  .about {
+  .about-home {
     margin-top: -46%;
   }
+
   .about .about-title {
     font-size: 35px;
   }
@@ -483,8 +612,8 @@ body {
     font-size: 18px;
   }
   .about .about-img {
-    width: 500px;
-    height: 500px;
+    width: 371px;
+    height: 414px;
   }
   .about about-img-top {
     margin-top: -39%;
@@ -500,8 +629,48 @@ body {
   .grey-square .offer {
     font-size: 13px;
   }
+
+  .book .book-img {
+    height: 361px;
+  }
+  .book .book-online {
+    height: 361px;
+  }
+  .book .book-register {
+    font-size: 37px;
+  }
+
+  .services .image-container .image-title {
+    padding-top: 151px;
+  }
+  .services .image-container .image-text {
+    width: 58%;
+    text-align: center;
+    margin-left: 104px;
+  }
+
+  .reception-office {
+    margin-top: -54%;
+  }
+
+  .header-bg {
+    height: 536px;
+  }
+
+  .faq-greysquare {
+    top: 40%;
+    width: 43%;
+  }
 }
-@media all and (max-width: 411px) {
+@media all and (max-width: 414px) {
+  .main-content .main-image {
+    margin-top: -68%;
+  }
+
+  .about-home {
+    margin-top: -68%;
+  }
+
   .office-image {
     margin-top: -78%;
   }
@@ -515,10 +684,66 @@ body {
     width: 150px;
     height: 150px;
   }
+
+  .book .book-img {
+    margin-left: 5%;
+  }
+  .book .book-online .book-register {
+    font-size: 20px;
+  }
+
+  .appointment {
+    width: 158px;
+  }
+
+  .services .image-container .image-text {
+    margin-left: 76px;
+  }
+
+  reception-office {
+    margin-top: -85%;
+  }
+
+  .reception .reception-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .faq-greysquare {
+    width: 62%;
+  }
+
+  .question-section {
+    margin-top: -61%;
+  }
+}
+@media all and (max-width: 360px) {
+  .about-home {
+    margin-top: -80%;
+  }
+
+  .main-content .main-image {
+    margin-top: -80%;
+  }
+
+  .about .about-img {
+    width: 300px;
+    height: 300px;
+  }
 }
 @media all and (max-width: 330px) {
+  .main-content .main-image .text-square {
+    height: 178px;
+  }
+  .main-content .main-image .text-square .offer {
+    font-size: 1em;
+  }
+  .main-content .main-image .text-square .appointment {
+    width: 151px;
+  }
+
   .office-image {
-    margin-top: -106%;
+    margin-top: -100%;
   }
 
   .grey-square {
@@ -528,14 +753,45 @@ body {
   .grey-square .offer {
     font-size: 11px;
   }
-}
-.appointment {
-  font-size: 20px;
-  width: 290px;
-  background-color: #fff;
-  color: #7CA0C0;
-  text-align: center;
-  padding: 15px 0;
+
+  .book .book-img {
+    margin-left: 0;
+  }
+  .book .book-online {
+    width: 50%;
+  }
+  .book .book-online .book-register {
+    font-size: 24px;
+  }
+
+  .services .image-container .image-text {
+    margin-left: 58px;
+  }
+
+  .reception-office {
+    margin-top: -100%;
+  }
+
+  .reception .reception-img {
+    width: 250px;
+    height: 250px;
+  }
+  .reception .reception-title {
+    font-size: 37px;
+  }
+
+  .question-section {
+    margin-top: -80%;
+  }
+
+  .texts {
+    font-size: 12px;
+  }
+
+  .page-logo {
+    width: 200px;
+    height: 164px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

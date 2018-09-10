@@ -4,9 +4,6 @@
     background: url(../img/Receptionroominclinic.png) no-repeat right;
 
   }
-}
-
-@media screen and (min-width:1920px){
   .main-content {
 
     .main-image {
@@ -15,6 +12,14 @@
     }
 
   }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .bg-light {
+    background: url(../img/implant-dentistry.jpg) no-repeat center center;
+  }
 }
 
 @media screen and (max-width: 1800px){
@@ -22,6 +27,18 @@
   .office-image {
     margin-top: -8%;
   }
+
+
+  .main-content {
+
+    .main-image {
+
+      margin-top: -2%;
+    }
+  }
+ .about-home {
+   margin-top: -2%;
+ }
 }
 
 @media screen and (max-width: 1500px){
@@ -34,8 +51,10 @@
     margin-top: 25%;
   }
 
+  .reception-office {
+    margin-top: -14%;
+  }
   .reception {
-     margin-top: -10%;
 
     .office-reception {
       width: 500px;
@@ -43,18 +62,33 @@
     }
     .reception-img {
       width: 95%;
-      //height: 95%;
     }
+  }
+
+  .about-home {
+    margin-top: -6%;
   }
 
   .about {
 
     .about-img {
-      width: 85%;
-      height: 65%;
+      width: 88%;
+      height: 86%;
+    }
+
+    .about-text {
+      width: 100%;
     }
   }
 
+
+  .main-content {
+
+    .main-image {
+
+      margin-top: -6%;
+    }
+  }
 }
 @media all  and (max-width: 1400px) {
 
@@ -64,6 +98,10 @@
       margin-top: -9%;
     }
   }
+  .about-home {
+    margin-top: -8%;
+  }
+
   .about {
 
     .about-img {
@@ -86,23 +124,28 @@
   }
 }
 @media all and (max-width: 1024px) {
+
   .office-image {
     margin-top: -25%;
   }
+
   .grey-square{
     .offer {
       font-size: 20px;
     }
   }
-  .main-content {
 
+  .main-content {
+    margin-top: -20%;
     .appointment {
       font-size: 12px;
       width: 69%;
       padding: 10px 0;
     }
   }
+
   .main-image {
+
     .text-square {
       width: 55%;
       margin-top: 27%;
@@ -116,7 +159,51 @@
       }
     }
   }
+
+  .about-home {
+    margin-top: -20%;
+  }
+
+  .about {
+
+    .about-img {
+      height: 67%;
+      width: 88%;
+    }
+
+    .about-text {
+      width: 90%;
+    }
+  }
+   .reception-office {
+     margin-top: -26%;
+   }
+
+  .reception {
+
+
+    .reception-title {
+      font-size: 45px;
+    }
+
+    .check-text {
+      font-size: 17px;
+    }
+  }
+
+  .services {
+
+    .image-container {
+
+      .image-title {
+        font-size: 27px;
+        padding-top: 85%;
+      }
+    }
+  }
+
 }
+
 @media all and (max-width: 800px) {
   .office-image {
     margin-top: -35%;
@@ -132,8 +219,12 @@
       }
     }
   }
+
+  .about-home {
+    margin-top: -26%;
+  }
+
   .about {
-   // margin-top: -28%;
 
     .about-title {
       font-size: 35px;
@@ -143,10 +234,32 @@
       font-size: 18px;
     }
   }
+  .services {
+
+    .image-container {
+
+      .image-title {
+        font-size: 21px;
+        padding-top: 107%;
+      }
+
+      .image-text {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .reception-office {
+    margin-top: -37%;
+  }
+
+  .header-bg {
+    height: 580px;
+  }
 }
 
 @media all and (max-width: 768px) {
-  
+
   .office-image {
     margin-top: -38%;
   }
@@ -154,14 +267,52 @@
   .grey-square {
     margin-top: 37%;
   }
+  .about-home {
+    margin-top: -28%;
+  }
+
+  .main-content {
+
+    .main-image {
+      margin-top: -28%;
+    }
+  }
+
+  .book {
+
+    .book-online {
+      width: 43%;
+
+      .book-register {
+        font-size: 35px;
+      }
+    }
+  }
+ .appointment {
+   width: 208px;
+   padding: 10px 0;
+ }
+  .reception {
+
+    .reception-title {
+      font-size: 36px;
+    }
+
+    .reception-img {
+      width: 100%;
+      height: 89%;
+    }
+  }
 }
 
 @media all and (max-width: 600px) {
+
   .appointment {
     font-size: 1.2em;
     width: 186px;
     padding: 9px 0;
   }
+
   .main-content {
 
     .main-image {
@@ -173,28 +324,33 @@
         font-size: 0.6em;
         height: 161px;
 
-      .texts {
-        margin-top: 7px;
-      }
+        .texts {
+          margin-top: 7px;
+        }
 
       }
     }
   }
-  .about {
+
+  .about-home {
     margin-top: -46%;
+  }
+
+  .about {
+
 
     .about-title {
       font-size: 35px;
-
     }
+
     .about-text {
       font-size: 18px ;
     }
 
     .about-img {
-      width: 500px;
-      height: 500px;
-    }
+        width: 371px;
+        height: 414px;
+      }
 
     about-img-top {
       margin-top: -39%;
@@ -213,10 +369,64 @@
     }
   }
 
+  .book {
+
+    .book-img {
+      height: 361px;
+    }
+
+    .book-online {
+      height: 361px;
+    }
+
+    .book-register {
+      font-size: 37px;
+    }
+  }
+
+  .services {
+
+    .image-container {
+
+      .image-title {
+        padding-top: 151px;
+      }
+
+      .image-text {
+        width: 58%;
+        text-align: center;
+        margin-left: 104px;
+      }
+    }
+  }
+  .reception-office {
+    margin-top: -54%;
+  }
+
+  .header-bg {
+    height: 536px;
+  }
+
+  .faq-greysquare {
+    top: 40%;
+    width: 43%;
+  }
 }
 
 
-@media all and (max-width: 411px) {
+@media all and (max-width: 414px) {
+  .main-content {
+
+    .main-image {
+      margin-top: -68%;
+
+    }
+  }
+
+      .about-home {
+    margin-top: -68%;
+  }
+
   .office-image {
     margin-top: -78%;
   }
@@ -225,15 +435,106 @@
     margin-top: 75%;
     width: 51%;
   }
+
   page-logo {
     width: 150px;
     height: 150px;
   }
 
+  .book {
+
+    .book-img {
+      margin-left: 5%;
+    }
+
+    .book-online {
+
+      .book-register {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .appointment {
+    width: 158px;
+  }
+
+  .services {
+
+    .image-container {
+
+      .image-text {
+        margin-left: 76px;
+      }
+    }
+  }
+
+  reception-office {
+
+    margin-top: -85%;
+
+  }
+
+  .reception {
+
+    .reception-img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+  .faq-greysquare {
+    width: 62%;
+  }
+  .question-section {
+    margin-top: -61%;
+  }
+}
+@media all and (max-width: 360px) {
+
+  .about-home {
+    margin-top: -80%;
+  }
+
+  .main-content {
+
+    .main-image {
+      margin-top: -80%;
+    }
+  }
+
+  .about {
+
+    .about-img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+
 }
 @media all and (max-width: 330px) {
+
+  .main-content {
+
+    .main-image {
+   //   margin-top: -89%;
+
+      .text-square {
+        height: 178px;
+
+        .offer {
+          font-size: 1em;
+        }
+        .appointment {
+          width: 151px;
+        }
+      }
+    }
+  }
+
   .office-image {
-    margin-top: -106%;
+    margin-top: -100%;
   }
 
   .grey-square {
@@ -245,6 +546,69 @@
     }
   }
 
+  .book {
+
+    .book-img {
+      margin-left: 0;
+    }
+
+    .book-online {
+
+      width: 50%;
+
+      .book-register {
+        font-size: 24px;
+      }
+    }
+  }
+
+
+  //.about {
+  //
+  //  .about-img {
+  //    width: 300px;
+  //    height: 300px;
+  //  }
+  //}
+
+  .services {
+
+    .image-container {
+
+      .image-text {
+        margin-left: 58px;
+      }
+    }
+  }
+  .reception-office {
+    margin-top: -100%;
+  }
+  .reception {
+
+
+    .reception-img {
+      width: 250px;
+      height: 250px;
+    }
+
+    .reception-title {
+      font-size: 37px;
+    }
+  }
+
+
+  .question-section {
+    margin-top: -80%;
+  }
+
+  .texts {
+    font-size: 12px;
+  }
+
+  .page-logo {
+    width: 200px;
+    height: 164px;
+  }
 }
 
 
