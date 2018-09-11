@@ -12,21 +12,52 @@ body {
     width: 80%;
 }
 .bg-light {
-    min-height: 95vh;
-    background: url("../img/implant-dentistry.jpg") no-repeat;
+    min-height: 100vh;
+    background: url("../img/bg-light.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
+ //   padding-bottom:50%;
+    padding-top:40%;
 }
-
 
 .bg-pink {
     min-height: 100vh;
-    background: url("../img/bg-light.jpg") no-repeat center center;
+    background: url("../img/bg-pink&grey.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+    padding-top: 40% ;
+    padding-bottom: 10%;
+}
+
+.bg-grey {
+    min-height: 100vh;
+    background: url("../img/bg-grey.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 40% ;
 }
 
 
+.bg-about_block {
+    background-color: #ECFDFF;
+}
+.bg-reception_block {
+    background-color: #f6ddd6;
+ //   margin-top: 45%;
+}
+.bg-services_block {
+    background-color: #a9ecf1;
+}
+
+
+
+// color light pink  #f6ddd6;
+//color light blue #d2dfe8;
+//color middle blue #a9ecf1;
+//color light yellow #ffffd2;
+//color light green #A5D6CD;
+//color water blue #6AC1CA
+//color blue like a white #ECFDFF
 .page-logo {
     width: 233px;
     height: 190px;
@@ -79,24 +110,27 @@ body {
 }
 
 .about {
-    .about-text {
-        width: 64%;
-        float: right;
 
-      
-        .about-title {
-            font-size: 50px;
+
+
+        .about-text {
+            width: 64%;
+            float: right;
+
+            .about-title {
+                font-size: 50px;
+            }
+
+            .text {
+                font-size: 21px;
+            }
         }
 
-        .text {
-            font-size: 21px;
-        }
-
-        .about-img {
-            width: 100%;
-            height: 100%;
-        }
+    .about-img {
+        width: 74%;
+        height: 90%;
     }
+
 
 }
 
@@ -163,18 +197,21 @@ body {
 
 
 .book {
-    margin-top: 85px;
+    margin-top: 50%;
+
+    .book-block {
+        background-color: #7CA0C0;
+    }
     
     .book-img {
       width: 45%;
       height: 511px;
-      margin-left: 10%;
+     // margin-left: 10%;
     }
 
     .book-online {
         width: 44.92%;
         height: 511px;
-        background-color: #7CA0C0;
         color: white;
 
         .book-text {
@@ -190,7 +227,7 @@ body {
 }
 
 .logo {
-    margin-top: 154px;
+    margin-top: 48px;
 
     .logo-img {
         width: 100%;

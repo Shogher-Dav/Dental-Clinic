@@ -15,12 +15,12 @@
 
 }
 
-@media screen and (max-width: 800px) {
-
-  .bg-light {
-    background: url(../img/implant-dentistry.jpg) no-repeat center center;
-  }
-}
+//@media screen and (max-width: 800px) {
+//
+//  .bg-light {
+//    background: url(../img/implant-dentistry.jpg) no-repeat center center;
+//  }
+//}
 
 @media screen and (max-width: 1800px){
 
@@ -105,10 +105,14 @@
   .about {
 
     .about-img {
-      height: 571px;
-      margin-top: 18%;
+    //  height: 571px;
+      margin-top: 5%;
 
     }
+  }
+
+  .bg-light {
+    margin-top: -10%;
   }
 
 }
@@ -202,6 +206,10 @@
     }
   }
 
+  .bg-light {
+    margin-top: -18%;
+  }
+
 }
 
 @media all and (max-width: 800px) {
@@ -255,6 +263,10 @@
 
   .header-bg {
     height: 580px;
+  }
+
+  .bg-light {
+    margin-top: -26%;
   }
 }
 
@@ -411,6 +423,10 @@
     top: 40%;
     width: 43%;
   }
+
+  .bg-light {
+    margin-top: -35%;
+  }
 }
 
 
@@ -486,8 +502,13 @@
   .faq-greysquare {
     width: 62%;
   }
+
   .question-section {
     margin-top: -61%;
+  }
+
+  .bg-light {
+    margin-top: -38%;
   }
 }
 @media all and (max-width: 360px) {
@@ -509,6 +530,9 @@
       width: 300px;
       height: 300px;
     }
+  }
+  .bg-light {
+    margin-top: -40%;
   }
 
 
@@ -560,16 +584,13 @@
         font-size: 24px;
       }
     }
+
+    .bg-light {
+      margin-top: -38%;
+    }
   }
 
 
-  //.about {
-  //
-  //  .about-img {
-  //    width: 300px;
-  //    height: 300px;
-  //  }
-  //}
 
   .services {
 
@@ -608,6 +629,9 @@
   .page-logo {
     width: 200px;
     height: 164px;
+  }
+  .bg-light {
+    margin-top: -48%;
   }
 }
 

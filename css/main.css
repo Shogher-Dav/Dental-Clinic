@@ -158,17 +158,40 @@ body {
 }
 
 .bg-light {
-  min-height: 95vh;
-  background: url("../img/implant-dentistry.jpg") no-repeat;
+  min-height: 100vh;
+  background: url("../img/bg-light.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding-top: 40%;
 }
 
 .bg-pink {
   min-height: 100vh;
-  background: url("../img/bg-light.jpg") no-repeat center center;
+  background: url("../img/bg-pink&grey.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
+  padding-top: 40%;
+  padding-bottom: 10%;
+}
+
+.bg-grey {
+  min-height: 100vh;
+  background: url("../img/bg-grey.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 40%;
+}
+
+.bg-about_block {
+  background-color: #ECFDFF;
+}
+
+.bg-reception_block {
+  background-color: #f6ddd6;
+}
+
+.bg-services_block {
+  background-color: #a9ecf1;
 }
 
 .page-logo {
@@ -220,9 +243,9 @@ body {
 .about .about-text .text {
   font-size: 21px;
 }
-.about .about-text .about-img {
-  width: 100%;
-  height: 100%;
+.about .about-img {
+  width: 74%;
+  height: 90%;
 }
 
 .reception .check {
@@ -269,17 +292,18 @@ body {
 }
 
 .book {
-  margin-top: 85px;
+  margin-top: 50%;
+}
+.book .book-block {
+  background-color: #7CA0C0;
 }
 .book .book-img {
   width: 45%;
   height: 511px;
-  margin-left: 10%;
 }
 .book .book-online {
   width: 44.92%;
   height: 511px;
-  background-color: #7CA0C0;
   color: white;
 }
 .book .book-online .book-text {
@@ -292,7 +316,7 @@ body {
 }
 
 .logo {
-  margin-top: 154px;
+  margin-top: 48px;
 }
 .logo .logo-img {
   width: 100%;
@@ -370,11 +394,6 @@ body {
     background: url(../img/Oakton-Banner.png) no-repeat right;
   }
 }
-@media screen and (max-width: 800px) {
-  .bg-light {
-    background: url(../img/implant-dentistry.jpg) no-repeat center center;
-  }
-}
 @media screen and (max-width: 1800px) {
   .office-image {
     margin-top: -8%;
@@ -435,8 +454,11 @@ body {
   }
 
   .about .about-img {
-    height: 571px;
-    margin-top: 18%;
+    margin-top: 5%;
+  }
+
+  .bg-light {
+    margin-top: -10%;
   }
 }
 @media only screen and (max-width: 1338px) {
@@ -503,6 +525,10 @@ body {
     font-size: 27px;
     padding-top: 85%;
   }
+
+  .bg-light {
+    margin-top: -18%;
+  }
 }
 @media all and (max-width: 800px) {
   .office-image {
@@ -542,6 +568,10 @@ body {
 
   .header-bg {
     height: 580px;
+  }
+
+  .bg-light {
+    margin-top: -26%;
   }
 }
 @media all and (max-width: 768px) {
@@ -661,6 +691,10 @@ body {
     top: 40%;
     width: 43%;
   }
+
+  .bg-light {
+    margin-top: -35%;
+  }
 }
 @media all and (max-width: 414px) {
   .main-content .main-image {
@@ -716,6 +750,10 @@ body {
   .question-section {
     margin-top: -61%;
   }
+
+  .bg-light {
+    margin-top: -38%;
+  }
 }
 @media all and (max-width: 360px) {
   .about-home {
@@ -729,6 +767,10 @@ body {
   .about .about-img {
     width: 300px;
     height: 300px;
+  }
+
+  .bg-light {
+    margin-top: -40%;
   }
 }
 @media all and (max-width: 330px) {
@@ -763,6 +805,9 @@ body {
   .book .book-online .book-register {
     font-size: 24px;
   }
+  .book .bg-light {
+    margin-top: -38%;
+  }
 
   .services .image-container .image-text {
     margin-left: 58px;
@@ -791,6 +836,10 @@ body {
   .page-logo {
     width: 200px;
     height: 164px;
+  }
+
+  .bg-light {
+    margin-top: -48%;
   }
 }
 
